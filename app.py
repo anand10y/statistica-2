@@ -237,7 +237,7 @@ with st.sidebar:
     st.header("🔧 Setări / Încărcare date")
     uploaded = st.file_uploader("Încarcă fișier Excel (.xlsx) cu coloanele: Nume, Clasa, Proba, Evaluare, Simulare, Bacalaureat", type=["xlsx"])
     sheet = st.text_input("Nume foaie (opțional, lasă gol pentru prima foaie)", value="")
-    show_student_plots = st.checkbox("Afișează grafice pentru fiecare elev (agregat în aceeași figură)
+    show_student_plots = st.checkbox("Afișează grafice pentru fiecare elev (agregat în aceeași figură")
     show_scatter_plots = st.checkbox("Afișează grafice scatter (puncte) pentru clase și probe", value=True)", value=False)
     st.markdown("---")
     st.caption("Sfat: dacă ai notele cu virgule, aplicația le normalizează automat.")
