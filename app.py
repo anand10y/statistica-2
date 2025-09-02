@@ -319,9 +319,9 @@ st.pyplot(fig_line_proba, clear_figure=True)
 
 if show_scatter_plots:
     # Scatter pe clase
-st.subheader("🔵 Distribuția notelor pe etape – pe clase (scatter)")
-fig_scatter_class = plot_scatter_by_class(df_sel)
-st.pyplot(fig_scatter_class, clear_figure=True)
+    st.subheader("🔵 Distribuția notelor pe etape – pe clase (scatter)")
+    fig_scatter_class = plot_scatter_by_class(df_sel)
+    st.pyplot(fig_scatter_class, clear_figure=True)
 
     # Scatter pe probe
     st.subheader("🔵 Distribuția notelor pe etape – pe probe (scatter)")
